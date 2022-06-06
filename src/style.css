@@ -9,25 +9,34 @@
     padding: 10px;
 }
 
-.personal-information-content > h3 {
+.personal-information > h3 {
     margin-top: 40px;
     padding: 5px 0 5px 5px;
     color: white;
     background-color: rgb(29, 27, 27);
     width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    text-align: center;
+    
 }
-.personal-information-content > p {
+.personal-information > p {
     line-height: 25px;
+    text-align: center;
+    
 }
-.personal-information-content > ul > li {
-    margin-top: 20px;
+.personal-information > ul {
+    text-align: center;
 }
-.personal-information-content {
 
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
+
+.personal-information > ul > li {
+    margin-top: 20px;
+    list-style-type: none;
 }
+
+
 img {
     border-radius: 50%;
     margin-left: auto;
