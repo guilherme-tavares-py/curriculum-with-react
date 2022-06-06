@@ -30,6 +30,7 @@
 }
 .personal-information > ul {
     text-align: center;
+    transform: translate(-5%, 0);
 }
 
 
